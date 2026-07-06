@@ -32,5 +32,5 @@ Siga o passo a passo abaixo para rodar o projeto localmente:
 
 ### 1. Clone o repositório
 ```bash
-git clone [https://github.com/guihsil/django-agenda](https://github.com/guihsil/django-agenda)
+git clone https://github.com/guihsil/django-agenda
 cd django-agenda
