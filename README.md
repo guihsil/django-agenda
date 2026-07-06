@@ -1,23 +1,36 @@
-Iniciar Projeto
+# 📖 Agenda de Contatos - Django
 
-```
-python -m venv venv
-. venv/bin/activate
-pip install django
-django-admin startproject project .
-python manage.py startapp APPNAME
-```
+Projeto de uma Agenda de Contatos desenvolvida com **Python** e **Django** durante o curso de Python 3 do professor Otávio Miranda.
 
-Migrar base de dados
+## 🎯 Objetivo do Projeto
 
-```
-python manage.py makemigrations
-python manage.py migrate
-```
+O objetivo deste projeto é criar uma aplicação web para gerenciamento de contatos, colocando em prática conceitos fundamentais do framework Django, como Models, Views, Templates, URLs, relacionamento de banco de dados e arquivos estáticos/mídia.
 
-Criar SU
+## ✨ Funcionalidades
 
-```
-python manage.py createssuperuser
-python manage.py changepassword USERNAME
-```
+- Listagem de contatos com paginação (10 contatos por página).
+- Busca de contatos por nome, sobrenome, telefone ou e-mail.
+- Visualização detalhada do perfil do contato.
+- Categorização de contatos (Ex: Amigos, Família, Conhecidos).
+- Suporte a upload de imagens de perfil dos contatos.
+- Sistema de ocultar/exibir contatos específicos (`show`).
+- Painel administrativo do Django configurado para gerenciar contatos e categorias.
+- Script automatizado para popular o banco de dados com contatos fictícios para fins de teste.
+
+## 🚀 Tecnologias Utilizadas
+
+- **Python 3**
+- **Django 6.0.6**
+- **SQLite3** (Banco de dados)
+- **Pillow** (Para lidar com upload e processamento das imagens de perfil)
+- **Faker** (Para geração de dados fictícios de teste)
+- **HTML5 e CSS3** (Estilização própria sem frameworks css externos)
+
+## 🛠️ Como executar o projeto na sua máquina
+
+Siga o passo a passo abaixo para rodar o projeto localmente:
+
+### 1. Clone o repositório
+```bash
+git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
+cd NOME_DO_REPOSITORIO
