@@ -34,3 +34,34 @@ Siga o passo a passo abaixo para rodar o projeto localmente:
 ```bash
 git clone https://github.com/guihsil/django-agenda
 cd django-agenda
+```
+
+### 2. Ambiente virtual
+```bash
+python -m venv venv
+```
+
+### 3. Dependências do projeto
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute as migrations
+```bash
+python manage.py migrate
+```
+
+### 5. Crie um super usuário
+```bash
+python manage.py createsuperuser
+```
+
+### 6. (Opicional) popular banco de dados com dados falsos
+```bash
+python utils/create_contacts.py
+```
+
+### 7. Rodar o servidor
+```bash
+python manage.py runserver
+```
